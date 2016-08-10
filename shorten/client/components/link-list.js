@@ -21,18 +21,20 @@ class LinkList extends Component {
 
   render(){
     return (
-      <table className="table">
-        <thead>
-          <tr>
-            <th>URL</th>
-            <th>Address</th>
-            <th>Clicks</th>
-          </tr>
-        </thead>
-        <tbody>
-          {this.renderRows()}
-        </tbody>
-      </table>
+      <div className="container">
+        <table className="table table-striped">
+          <thead>
+            <tr>
+              <th>URL</th>
+              <th>Address</th>
+              <th>Clicks</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.renderRows()}
+          </tbody>
+        </table>
+      </div>
     );
   }
 }
