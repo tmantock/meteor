@@ -1,0 +1,12 @@
+#login-buttons {
+  margin: 18px;
+  font-size: 14px;
+}
+
+#login-buttons a {
+  text-decoration: none;
+}
+
+.list-group-item {
+  height: 55px;
+}
