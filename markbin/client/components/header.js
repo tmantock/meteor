@@ -13,7 +13,7 @@ class Header extends Component {
 
   render(){
     return (
-      <nav className="nav navbar-default">
+      <nav className="nav navbar-inverse">
         <div className="navbar-header">
           <Link to="/" className="navbar-brand">MarkBin</Link>
         </div>
