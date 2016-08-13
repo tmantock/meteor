@@ -22,7 +22,7 @@ class LinkList extends Component {
   render(){
     return (
       <div className="container">
-        <table className="table table-striped">
+        <table className="table table-striped table-hover">
           <thead>
             <tr>
               <th>URL</th>
