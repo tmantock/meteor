@@ -14,7 +14,6 @@ class BinsShare extends Component {
     })
   }
   render(){
-    console.log(this.props.bin);
     return (
       <footer className="bins-share">
         <div className="input-group">
